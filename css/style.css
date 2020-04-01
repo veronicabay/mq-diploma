@@ -35,7 +35,7 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #0a0e34 url(/images/football_767.jpg) center / cover no-repeat;
+    background: #0a0e34 url(../images/football_767.jpg) center / cover no-repeat;
   }
 
   .welcome::after {
