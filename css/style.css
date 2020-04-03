@@ -57,15 +57,18 @@ body {
   }
 
   .header-logo {
-    margin: 5.644% auto 0 auto;
-    width: 42.188%;
-    /*color: #ffffff;*/
+    background-image:url("/svg/surface_logo_text.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 133px;
+    height: 38px;
+    margin: 5.291vh auto 23.986vh auto;
+    fill: #ffffff;
   }
 
-  .welcome-title-first {
-    margin-top: 23.986%;
-    margin-bottom: 5.291%;
+  .welcome-title {
     margin-left: 6.25%;
+    margin-bottom: 15.52vh;
     font-size: 28px;
     letter-spacing: 1px;
     color: #ffffff;
@@ -74,13 +77,9 @@ body {
   }
 
   .welcome-title-second {
-    margin-bottom: 15.52%;
-    margin-left: 20.312%;
-    font-size: 28px;
-    letter-spacing: 1px;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-weight: 700;
+    display: block;   
+    margin-left: 13.75%;
+    margin-top: 5.291vh;
   }
 
   .button-link {
@@ -100,14 +99,21 @@ body {
   }
 
   .apple-logo {
-    width: 6.25%;
-    background-color: #5e42b0;
-
+    background-image:url("/svg/apple_logo_black.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 24px;
+    fill: #ffffff;
   }
 
   .google-play {
-    width: 7.188%;
-    background-color: #5e42b0;
+    background-image:url("/svg/google-play.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
   }
 
   .button-title {
@@ -117,5 +123,6 @@ body {
     font-family: "Open Sans";
     font-weight: 400;
     text-transform: uppercase;
+    display: block;
   }
 }
