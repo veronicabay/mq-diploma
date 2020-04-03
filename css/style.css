@@ -57,7 +57,7 @@ body {
   }
 
   .header-logo {
-    background-image:url("/svg/surface_logo_text.svg");
+    background-image:url("../svg/surface_logo_text.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 133px;
@@ -99,7 +99,7 @@ body {
   }
 
   .apple-logo {
-    background-image:url("/svg/apple_logo_black.svg");
+    background-image:url("../svg/apple_logo_black.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 20px;
@@ -108,7 +108,7 @@ body {
   }
 
   .google-play {
-    background-image:url("/svg/google-play.svg");
+    background-image:url("../svg/google-play.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 24px;
