@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(fonts/OpenSans-Bold.woff);
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  display: block;
+  margin: 0;
+  font-family: san-serif;
+  overflow-x: hidden;
+}
+
+@media (max-width: 640px) {
+  .welcome {
+    width:
+      /*100%*/
+      320px;
+    height:
+      /*100vh*/
+      567px;
+    position: relative;
+    background: #0a0e34 url(../images/football_767.jpg) center / cover no-repeat;
+  }
+
+  .welcome::after {
+    content: "";
+    background-color: #0a0e34;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+  }
+
+  .header-logo {
+    background-image: url("../svg/surface_logo_text.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width:
+      /*41.563%*/
+      133px;
+    height:
+      /*6.7vh*/
+      38px;
+    margin:
+      /*205px*/
+      5.291vh auto 88px
+      /*23.986vh*/
+      auto;
+    fill: #ffffff;
+  }
+
+  .welcome-title {
+    margin-left: 6.25%;
+    margin-bottom: 15.52vh;
+    font-size: 4.94vh
+      /*28px*/
+    ;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 700;
+  }
+
+  .welcome-title-second {
+    display: block;
+    margin-left: 13.75%;
+    margin-top: 5.291vh;
+  }
+
+  .button-link {
+    font-size: 8px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    width: 87.5%
+      /*280px*/
+    ;
+    height: 6.17vh
+      /*35px*/
+    ;
+    background-color: #5e42b0;
+    margin: 0 auto 15px auto;
+    display: flex;
+    /* flex-direction: column;*/
+    padding:
+      /*0.88vh 25.94%*/
+      3px 83px;
+  }
+
+  .apple-logo {
+    background-image: url("../svg/apple_logo_black.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width:
+      /*7.143%*/
+      20px;
+    height:
+      /*68.57%*/
+      24px;
+    fill: #ffffff;
+  }
+
+  .google-play {
+    background-image: url("../svg/google-play.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 24px;
+    fill: #ffffff;
+  }
+
+  .button-text {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .button-title {
+    font-size: 8px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  .button-link-text {
+    display: block;
+  }
+
+  .athlets-title {
+    font-size: 50px;
+    line-height: 60px;
+    color: #e7e7e7;
+    font-family: "Open Sans";
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .athlets-image {
+    margin: 20px 70px;
+  }
+
+  .players-image {
+    margin: 20px 10px;
+  }
+
+  .athlets-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .athlets-list-item {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    width: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .athlets-list-item::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #5e42b0;
+  }
+
+  .athlets-list-item::after:nth-child(3n + 3) {
+    background-color: #ffffff;
+  }
+
+  .athlets-list-header {
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #c1c1c1;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  .athlets-list-header:nth-child(1n + 2) and .athlets-list-item:nth-child(1n + 2) {
+    margin-top: 60px;
+  }
+
+  .athlets-list-text {
+    width: 280px;
+    height: auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin: 25px 20px 50px 20px;
+  }
+
+  .motivation-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .motivation-list-item {
+    background-color: #5e42b0;
+    width: 70px;
+    height: 70px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: #f5f6f7;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: center;
+    margin: 295px 230px 20px 20px;
+  }
+
+  .motivation-list-item::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #ffffff;
+    opacity: 0.3;
+  }
+
+  .motivation-list-header {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: #e7e7e7;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+
+  .footer {
+    width:
+      /*100%*/
+      320px;
+    height:
+      /*100vh*/
+      567px;
+    position: relative;
+    background: #0a0e34 url(/images/game_767.jpg) center / cover no-repeat;
+  }
+
+  .footer::after {
+    content: "";
+    background-color: #0a0e34;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+  }
+
+  .footer-wrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+  }
+
+  .artwork {
+    background-color: #5e42b0;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    margin: 80px auto;
+    /* padding: 15px 7px;*/
+  }
+
+  .footer-logo {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:
+      /*41.563%*/
+      55px;
+    height:
+      /*6.7vh*/
+      50px;
+    fill: #ffffff;
+    margin: 10px 7px;
+  }
+
+  .download-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 700;
+    margin: auto;
+  }
+
+  .footer-title {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #9b8ec1;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin: 13px auto 75px auto;
+    text-transform: uppercase;
+  }
+}
