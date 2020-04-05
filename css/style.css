@@ -177,14 +177,24 @@ body {
     margin: 20px 70px;
   }
 
-  .players-image {
-    margin: 20px 10px;
-  }
-
   .athlets-list {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .athlets-list-cover {
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .athlets-list-cover:nth-child(3n + 2) {
+    background-color: #f5f4f9;
+  }
+
+  .athlets-list-cover:nth-child(3n + 3) {
+    background-color: #5e42b0;
   }
 
   .athlets-list-item {
@@ -208,6 +218,10 @@ body {
     background-color: #5e42b0;
   }
 
+  .athlets-list-item:nth-child(1n + 2) {
+    margin-top: 60px;
+  }
+
   .athlets-list-item::after:nth-child(3n + 3) {
     background-color: #ffffff;
   }
@@ -224,7 +238,11 @@ body {
     margin-top: 30px;
   }
 
-  .athlets-list-header:nth-child(1n + 2) and .athlets-list-item:nth-child(1n + 2) {
+  .athlets-list-item:nth-child(1n + 3) {
+    color: #ffffff;
+  }
+
+  .athlets-list-header:nth-child(1n + 2) {
     margin-top: 60px;
   }
 
@@ -238,6 +256,28 @@ body {
     font-family: "Open Sans";
     font-weight: 400;
     margin: 25px 20px 50px 20px;
+  }
+
+  .athlets-list-text:nth-child(3n + 3) {
+    color: #ffffff;
+  }
+
+  .players-image {
+    margin: 20px 10px;
+  }
+
+  .players-list-cover {
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .players-list-cover:nth-child(3n + 2) {
+    background-color: #f5f4f9;
+  }
+
+  .players-list-cover:nth-child(3n + 3) {
+    background-color: #090c35;
   }
 
   .motivation-list {
@@ -281,6 +321,18 @@ body {
     margin-left: 20px;
   }
 
+  .motivation-list-text {
+    width: 280px;
+    height: auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin: 25px 20px 50px 20px;
+  }
+
   .footer {
     width:
       /*100%*/
@@ -289,7 +341,7 @@ body {
       /*100vh*/
       567px;
     position: relative;
-    background: #0a0e34 url(/images/game_767.jpg) center / cover no-repeat;
+    background: #0a0e34 url(../images/game_767.jpg) center / cover no-repeat;
   }
 
   .footer::after {
