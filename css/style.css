@@ -178,7 +178,6 @@ body {
   }
 
   .athlets-list {
-    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
   }
@@ -200,13 +199,11 @@ body {
   .athlets-list-item {
     font-size: 14px;
     letter-spacing: 1px;
-    line-height: 20px;
     color: #000000;
     font-family: "Open Sans";
     font-weight: 700;
     width: 15px;
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-right: 10px;
   }
 
   .athlets-list-item::after {
@@ -218,14 +215,6 @@ body {
     background-color: #5e42b0;
   }
 
-  .athlets-list-item:nth-child(1n + 2) {
-    margin-top: 60px;
-  }
-
-  .athlets-list-item::after:nth-child(3n + 3) {
-    background-color: #ffffff;
-  }
-
   .athlets-list-header {
     font-size: 23px;
     letter-spacing: 1px;
@@ -233,17 +222,16 @@ body {
     font-family: "Open Sans";
     font-weight: 700;
     text-transform: uppercase;
-    display: block;
-    margin-left: 10px;
-    margin-top: 30px;
+    display: flex;
+    margin-left: 20px;
   }
-
-  .athlets-list-item:nth-child(1n + 3) {
-    color: #ffffff;
-  }
-
-  .athlets-list-header:nth-child(1n + 2) {
+  
+  .athlets-list-cover:nth-of-type(1n + 2) .athlets-list-header {
     margin-top: 60px;
+  }
+
+  .athlets-list-cover:nth-of-type(3n + 3) .athlets-list-item::after {
+    background-color: #ffffff;
   }
 
   .athlets-list-text {
@@ -258,7 +246,7 @@ body {
     margin: 25px 20px 50px 20px;
   }
 
-  .athlets-list-text:nth-child(3n + 3) {
+  .athlets-list-cover:nth-of-type(3n) .athlets-list-text {
     color: #ffffff;
   }
 
@@ -280,24 +268,37 @@ body {
     background-color: #090c35;
   }
 
-  .motivation-list {
+  .players-list-cover:nth-of-type(3n) .athlets-list-text {
+    color: #ffffff;
+  }
+
+  .players-list-cover:nth-of-type(1n + 2) .athlets-list-header {
+    margin-top: 60px;
+  }
+
+  .players-list-cover:nth-of-type(3n + 3) .athlets-list-item {
+    color: #8765dd;
+  }
+
+  .players-list-cover:nth-of-type(3n + 3) .athlets-list-item::after {
+    background-color: #ffffff;
+  }
+
+   .motivation-list {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
   }
 
   .motivation-image-first {
-    position: relative;
     width: 320px;
   }
 
   .motivation-image-second {
-    position: relative;
     width: 320px;
   }
 
   .motivation-image-third {
-    position: relative;
     width: 320px;
   }
 
@@ -307,13 +308,14 @@ body {
     height: 70px;
     font-size: 14px;
     letter-spacing: 1px;
-    line-height: 34px;
     color: #f5f6f7;
     font-family: "Open Sans";
     font-weight: 700;
-    text-align: center;
-    margin: 295px 230px 20px 20px;
+    top: -58px;
+    left: 20px;
     position: absolute;
+    line-height: 20px;
+    padding: 25px;
   }
 
   .motivation-list-item::after {
@@ -324,6 +326,10 @@ body {
     border-radius: 1px;
     background-color: #ffffff;
     opacity: 0.3;
+  }
+
+  .motivation-card {
+    position: relative;
   }
 
   .motivation-list-header {
