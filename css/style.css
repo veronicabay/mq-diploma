@@ -997,7 +997,7 @@ body {
   }
 
   .welcome-title {
-    margin: 25vh 10% 20vh
+    margin: 25vh 10% 0
       /*295px 190px 220px*/
     ;
     font-size: 90px;
@@ -1019,6 +1019,7 @@ body {
 
   .button {
     display: flex;
+    margin-top: 20vh;
   }
 
   .button-link {
@@ -1032,15 +1033,13 @@ body {
     border: none;
     filter: drop-shadow(8px 13.856px 12px #0a0e34);
     border-radius: 38px;
-    width: 16%
-      /*310px*/
-    ;
+    width: 310px;
     height: 80px;
     background-color: #5e42b0;
     display: flex;
     padding: 15px 37px;
-    margin-left: 31%;
-    margin-right: 31%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
   .button-link:nth-child(2n + 1) {
@@ -1377,7 +1376,7 @@ body {
     width: 137px;
     height: 137px;
     border-radius: 30px;
-    margin: 24vh 2% 15vh 27%;
+    margin: 24vh 2% 0 27%;
   }
 
   .footer-logo {
@@ -1407,7 +1406,7 @@ letter-spacing: 4px;
     color: #a496ca;
     font-family: "Open Sans";
     font-weight: 400;
-    margin-left: 36%;
+    margin-left: 40%;
     text-transform: uppercase;
   }
 }
