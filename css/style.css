@@ -1020,6 +1020,9 @@ body {
   .button {
     display: flex;
     margin-top: 20vh;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .button-link {
@@ -1038,16 +1041,16 @@ body {
     background-color: #5e42b0;
     display: flex;
     padding: 15px 37px;
-    margin-left: 25%;
-    margin-right: 25%;
+    /*margin-left: 622px;
+    margin-right: 622px;*/
   }
 
   .button-link:nth-child(2n + 1) {
-    margin-right: 3%;
+    margin-right: 25px;
   }
 
   .button-link:nth-child(1n + 2) {
-    margin-left: 3%;
+    margin-left: 25px;
   }
 
   .apple-logo {
