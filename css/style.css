@@ -31,12 +31,8 @@ body {
 }
 
 .welcome {
-  width: 100%
-    /*320px*/
-  ;
-  min-height: 100vh
-    /*567px*/
-  ;
+  width: 100% /*320px*/;
+  min-height: 100vh /*567px*/;
   position: relative;
   background: #0a0e34 url(../images/football_767.jpg) center / cover no-repeat;
 }
@@ -61,17 +57,9 @@ body {
   background-image: url("../svg/surface_logo_text.svg");
   background-repeat: no-repeat;
   background-position: center;
-  width: 42%
-    /*133px*/
-  ;
-  height:
-    /*7vh*/
-    38px;
-  margin:
-    /*5vh*/
-    30px 29%
-    /*24vh*/
-    135px 29%;
+  width: 42% /*133px*/;
+  height: 38px;
+  margin: 30px 29% 135px 29%;
   fill: #ffffff;
 }
 
@@ -79,12 +67,8 @@ body {
   margin-left: 20px;
   margin-bottom: 85px;
   margin-right: 40px;
-  font-size:
-    /*5vh*/
-    28px;
-  letter-spacing:
-    /*0.18vh*/
-    1px;
+  font-size: 28px;
+  letter-spacing: 1px;
   color: #ffffff;
   font-family: "Open Sans";
   font-weight: 700;
@@ -92,12 +76,8 @@ body {
 
 .welcome-title-second {
   display: block;
-  margin-left: 65px
-    /*13.75%*/
-  ;
-  margin-top: 28px
-    /*5.291vh*/
-  ;
+  margin-left: 65px;
+  margin-top: 28px;
 }
 
 .button {
@@ -106,9 +86,7 @@ body {
 }
 
 .button-link {
-  font-size:
-    /*1.41vh*/
-    8px;
+  font-size: 8px;
   color: #ffffff;
   font-family: "Open Sans";
   font-weight: 700;
@@ -116,20 +94,12 @@ body {
   text-decoration: none;
   border: none;
   border-radius: 25px;
-  width:
-    /*87.5%*/
-    280px;
-  height:
-    /*6.17vh*/
-    35px;
+  width: 280px;
+  height: 35px;
   background-color: #5e42b0;
-  margin: 0 auto
-    /*2.65vh*/
-    15px auto;
+  margin: 0 auto 15px auto;
   display: flex;
-  padding:
-    /*0.88vh 25.94%*/
-    3px 83px;
+  padding: 3px 83px;
 }
 
 .apple-logo {
@@ -137,8 +107,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
-  /* height: 4.23vh /*24px*/
-  ;
   fill: #ffffff;
 }
 
@@ -147,22 +115,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
-  /*height: /*4.23vh 24px*/
-  ;
   fill: #ffffff;
 }
 
 .button-text {
   flex-direction: column;
-  margin-left:
-    /*3.13%*/
-    10px;
+  margin-left: 10px;
 }
 
 .button-title {
-  font-size:
-    /*1.41vh*/
-    8px;
+  font-size: 8px;
   color: #ffffff;
   font-family: "Open Sans";
   font-weight: 400;
@@ -175,9 +137,7 @@ body {
 }
 
 .athlets-title {
-  font-size:
-    /*8.82vh*/
-    50px;
+  font-size: 50px;
   color: #e7e7e7;
   font-family: "Open Sans";
   font-weight: 700;
@@ -260,9 +220,7 @@ body {
 }
 
 .players-title {
-  font-size:
-    /*8.82vh*/
-    50px;
+  font-size: 50px;
   color: #e7e7e7;
   font-family: "Open Sans";
   font-weight: 700;
@@ -421,12 +379,8 @@ body {
 }
 
 .footer {
-  width: 100%
-    /*320px*/
-  ;
-  min-height: 100vh
-    /*567px*/
-  ;
+  width: 100% /*320px*/;
+  min-height: 100vh /*567px*/;
   position: relative;
   background: #0a0e34 url(../images/game_767.jpg) center / cover no-repeat;
 }
@@ -444,30 +398,26 @@ body {
 
 .footer-wrapper {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
   z-index: 1;
 }
 
-.artwork {
-  background-color: #5e42b0;
-  width: 70px;
-  height: 70px;
-  border-radius: 15px;
-  margin: 80px auto;
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13vh;
 }
 
 .footer-logo {
   background-repeat: no-repeat;
   background-position: center center;
-  width:
-    /*41.563%*/
-    55px;
-  height:
-    /*6.7vh*/
-    50px;
+  width: 50px;
+  height: 50px;
   fill: #ffffff;
-  margin: 10px 7px;
+  margin: 17vh auto;
+  background-color: #5e42b0;
+  border-radius: 15px;
+  border: solid #5e42b0 10px;
+  box-sizing: content-box;
 }
 
 .download-link {
@@ -478,7 +428,7 @@ body {
   color: #ffffff;
   font-family: "Open Sans";
   font-weight: 700;
-  margin: auto;
+  text-align: center;
 }
 
 .footer-title {
@@ -487,7 +437,7 @@ body {
   color: #9b8ec1;
   font-family: "Open Sans";
   font-weight: 400;
-  margin: 13px auto 75px auto;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -496,12 +446,8 @@ body {
 @media (min-width: 641px) and (max-width: 960px) {
 
   .welcome {
-    width: 100%
-      /*770px*/
-    ;
-    min-height: 100vh
-      /*955px*/
-    ;
+    width: 100% /*770px*/;
+    min-height: 100vh /*955px*/;
     position: relative;
     background: #0a0e34 url(../images/football_1280.jpg) center / cover no-repeat;
   }
@@ -526,13 +472,9 @@ body {
     background-image: url("../svg/surface_logo_text.svg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 28%
-      /*205px*/
-    ;
+    width: 28% /*205px*/;
     height: 60px;
-    margin: 3.5vh
-      /*37px*/
-      36% 0px 36%;
+    margin: 3.5vh /*37px*/ 36% 0px 36%;
     fill: #ffffff;
   }
 
@@ -566,14 +508,10 @@ body {
     border: none;
     filter: drop-shadow(8px 13.856px 12px #0a0e34);
     border-radius: 38px;
-    width: 40%
-      /*310px*/
-    ;
+    width: 40% /*310px*/;
     height: 80px;
     background-color: #5e42b0;
-    margin: 0 5% 5vh
-      /*90px*/
-      5%;
+    margin: 0 5% 5vh /*90px*/ 5%;
     display: flex;
     padding: 15px 37px;
   }
@@ -631,9 +569,7 @@ body {
 
   .athlets-image {
     top: 0;
-    right: 60%
-      /*360px*/
-    ;
+    right: 60% /*360px*/;
     position: absolute;
   }
 
@@ -676,9 +612,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
-    margin-left: 38%
-      /*290px*/
-    ;
+    margin-left: 38% /*290px*/;
     padding-top: 30px;
   }
 
@@ -687,9 +621,7 @@ body {
   }
 
   .athlets-list-text {
-    width: 58%
-      /*445px*/
-    ;
+    width: 58% /*445px*/;
     height: auto;
     font-size: 16px;
     letter-spacing: 1px;
@@ -724,9 +656,7 @@ body {
   .players-image {
     top: 0;
     right: 0;
-    left: 40%
-      /*360px*/
-    ;
+    left: 40% /*360px*/;
     position: absolute;
   }
 
@@ -770,9 +700,7 @@ body {
     text-transform: uppercase;
     display: flex;
     margin-left: 30px;
-    width: 58%
-      /*445px*/
-    ;
+    width: 58% /*445px*/;
     padding-top: 30px;
   }
 
@@ -781,9 +709,7 @@ body {
   }
 
   .players-list-text {
-    width: 58%
-      /*445px*/
-    ;
+    width: 58% /*445px*/;
     height: auto;
     font-size: 16px;
     letter-spacing: 1px;
@@ -879,12 +805,8 @@ body {
   }
 
   .footer {
-    width: 100%
-      /*770px*/
-    ;
-    min-height: 100vh
-      /*955px*/
-    ;
+    width: 100% /*770px*/;
+    min-height: 100vh /*955px*/;
     position: relative;
     background: #0a0e34 url(../images/game_1280.jpg) center / cover no-repeat;
   }
@@ -905,23 +827,24 @@ body {
     z-index: 1;
   }
 
-  .artwork {
-    background-color: #5e42b0;
-    width: 133px;
-    height: 133px;
-    border-radius: 30px;
-    margin: 12.5vh
-      /*120px*/
-      auto;
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25vh;
   }
 
   .footer-logo {
     background-repeat: no-repeat;
     background-position: center center;
     width: 100px;
-    height: 86px;
+    height: 100px;
     fill: #ffffff;
-    margin: 20px 15px;
+    margin: 0;
+    background-color: #5e42b0;
+    border-radius: 30px;
+    border: solid #5e42b0 20px;
+    box-sizing: content-box;
+    margin: 12.5vh 41%;
   }
 
   .download-link {
@@ -942,12 +865,8 @@ body {
     color: #a496ca;
     font-family: "Open Sans";
     font-weight: 400;
-    margin: 2.5vh
-      /*25px*/
-      auto 25vh
-      /*285px*/
-      auto;
     text-transform: uppercase;
+    text-align: center;
   }
 }
 
@@ -956,12 +875,8 @@ body {
 @media (min-width: 961px) and (max-width: 1920px) {
 
   .welcome {
-    width: 100%
-      /*1915px*/
-    ;
-    min-height: 100vh
-      /*955px*/
-    ;
+    width: 100% /*1915px*/;
+    min-height: 100vh /*955px*/;
     position: relative;
     background: #0a0e34 url(../images/football_1920.jpg) center / cover no-repeat;
   }
@@ -986,20 +901,14 @@ body {
     background-image: url("../svg/surface_logo_text.svg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 10%
-      /*195px*/
-    ;
+    width: 10% /*195px*/;
     height: 55px;
-    margin: 4.2vh
-      /*40px*/
-      45% 0px 45%;
+    margin: 4.2vh /*40px*/ 45% 0px 45%;
     fill: #ffffff;
   }
 
   .welcome-title {
-    margin: 25vh 10% 0
-      /*295px 190px 220px*/
-    ;
+    margin: 25vh 10% 0 /*295px 190px 220px*/;
     font-size: 90px;
     letter-spacing: 5px;
     line-height: 31px;
@@ -1041,8 +950,6 @@ body {
     background-color: #5e42b0;
     display: flex;
     padding: 15px 37px;
-    /*margin-left: 622px;
-    margin-right: 622px;*/
   }
 
   .button-link:nth-child(2n + 1) {
@@ -1082,10 +989,12 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     display: block;
+    text-align: left;
   }
 
   .button-link-text {
     display: block;
+    text-align: left;
   }
 
   .athlets {
@@ -1374,32 +1283,33 @@ body {
     z-index: 1;
   }
 
-  .artwork {
-    background-color: #5e42b0;
-    width: 137px;
-    height: 137px;
-    border-radius: 30px;
-    margin: 24vh 2% 0 27%;
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 26vh;
+    padding-left: 25%;
   }
 
   .footer-logo {
     background-repeat: no-repeat;
     background-position: center center;
-    width: 105px;
-    height: 90px;
+    width: 95px;
+    height: 95px;
     fill: #ffffff;
     margin: 20px 15px;
+    background-color: #5e42b0;
+    border-radius: 30px;
+    border: solid #5e42b0 30px;
   }
 
   .download-link {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 80px;
-letter-spacing: 4px;
+    letter-spacing: 4px;
     color: #ffffff;
     font-family: "Open Sans";
     font-weight: 700;
-    margin-top: 26vh;
     margin-left: 0;
     margin-bottom: 1vh;
   }
@@ -1409,7 +1319,6 @@ letter-spacing: 4px;
     color: #a496ca;
     font-family: "Open Sans";
     font-weight: 400;
-    margin-left: 40%;
     text-transform: uppercase;
   }
 }
