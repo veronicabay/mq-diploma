@@ -1192,17 +1192,33 @@ body {
 
   .motivation-image-first {
     width: 50%;
-    height: 100vh;
+    height: auto;
+    
   }
 
   .motivation-image-second {
     width: 50%;
-    height: 100vh;
+    height: auto;
   }
 
   .motivation-image-third {
-    width: 50%;
-    height: 100vh;
+    width: 50%;  
+    height: auto;
+  }
+
+  .motivation-image-first-1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .motivation-image-second-2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .motivation-image-third-3 {
+    width: 100%;
+    height: auto;
   }
 
   .motivation-list-item {
@@ -1249,7 +1265,6 @@ body {
     font-family: "Open Sans";
     font-weight: 700;
     text-transform: uppercase;
-    margin: 260px 15% 0 15%;
   }
 
   .motivation-list-text {
@@ -1261,7 +1276,6 @@ body {
     color: #000000;
     font-family: "Open Sans";
     font-weight: 400;
-    margin: 100px;
   }
 
   .footer {
