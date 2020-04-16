@@ -1253,8 +1253,8 @@ body {
 
   .motivation-list-item {
     background-color: #5e42b0;
-    width: 170px;
-    height: 155px;
+    width: 150px;
+    height: 135px;
     font-size: 24px;
     letter-spacing: 1px;
     color: #f5f6f7;
@@ -1262,7 +1262,7 @@ body {
     font-weight: 700;
     position: absolute;
     line-height: 40px;
-    padding: 60px 70px;
+    padding: 50px 60px;
     top: calc(50% - 155px/2);
     left: calc(50% - 120%/2);
   }
