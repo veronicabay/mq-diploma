@@ -1097,6 +1097,7 @@ body {
     margin-left: 4%;
     text-transform: uppercase;
     position: relative;
+    width: 40%;
   }
 
   .players-image {
@@ -1145,7 +1146,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
-    margin-left: 30px;
+    margin-left: 4%;
     width: 58%;
     padding-top: 30px;
   }
@@ -1191,14 +1192,17 @@ body {
 
   .motivation-image-first {
     width: 50%;
+    height: 100vh;
   }
 
   .motivation-image-second {
     width: 50%;
+    height: 100vh;
   }
 
   .motivation-image-third {
     width: 50%;
+    height: 100vh;
   }
 
   .motivation-list-item {
@@ -1287,7 +1291,9 @@ body {
     display: flex;
     flex-direction: row;
     padding-top: 26vh;
-    padding-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
 
   .footer-logo {
