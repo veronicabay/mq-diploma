@@ -1239,16 +1239,19 @@ body {
   .motivation-image-first-1 {
     width: 100%;
     height: auto;
+    display: block;
   }
 
   .motivation-image-second-2 {
     width: 100%;
     height: auto;
+    display: block;
   }
 
   .motivation-image-third-3 {
     width: 100%;
     height: auto;
+    display: block;
   }
 
   .motivation-list-item {
